@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal">
+
+    <Button
+        android:text="Write a Memory"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/write" />
+
+    <Button
+        android:text="Read Memories"
+        android:layout_height="wrap_content"
+        android:id="@+id/read"
+        android:layout_width="320dp" />
+
+    <Button
+        android:text="Birthday Reminders"
+        android:layout_height="wrap_content"
+        android:id="@+id/bday"
+        android:layout_width="320dp" />
+
+    <Button
+        android:text="LOGOUT"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        android:layout_width="320dp" />
+</LinearLayout>
